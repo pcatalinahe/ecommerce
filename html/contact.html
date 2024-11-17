@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/icons/logo.webp" />
+    <title>Contact Us</title>
+    <link href="/css/contact.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/html/index.html">HOME</a></li>
+        <li><a href="/html/shop.html">SHOP</a></li>
+        <li><a href="/html/contact.html">ABOUT</a></li>
+        <li><a href="/html/contact.html#cu-form">CONTACT US</a></li>
+      </ul>
+    </nav>
+    <div id="hero">
+      <video autoplay muted loop>
+        <source src="/assets/index/hero.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="faq">
+        <h1>FAQ</h1>
+      <h6>1. What materials are your ornaments made from?</h6>
+      <p>
+        Our ornaments are crafted from premium crystals. Each piece is carefully
+        designed and made to capture the delicate beauty of the holiday season.
+      </p>
+      <h6>2. Do you offer gift wrapping or special packaging?</h6>
+      <p>
+        Yes! Every ornament from Glistening Wonders is carefully packaged in a
+        luxurious gift box, making it the perfect present for loved ones. We
+        also offer optional gift-wrapping service for an additional fee. If
+        you're sending a gift directly to someone, you can add a personalized
+        message during checkout.
+      </p>
+      <h6>3. Do you offer custom ornaments?</h6>
+      <p>
+        At this time, we do not. However, we are always coming up with new ideas
+        and products, sign up for our newsletter to be amongst the first to be
+        notified of our latest releases!
+      </p>
+    </div>
+
+    <div class="contact-form">
+      <form id="cu-form">
+        <h1>Contact Us</h1>
+        <label>First Name (<span class="ast">*</span>)</label>
+        <input type="text" id="f-name" placeholder="first name" />
+        <span id="fname-error" class="error-message"></span>
+
+        <label>Last Name (<span class="ast">*</span>)</label>
+        <input type="text" id="l-name" placeholder="last name" />
+        <span id="lname-error" class="error-message"></span>
+
+        <label>Email (<span class="ast">*</span>)</label>
+        <input type="text" id="email" placeholder="insert email address" />
+        <span id="email-error" class="error-message"></span>
+
+        <label>Message (<span class="ast">*</span>)</label>
+        <input type="text" id="msg" placeholder="Your inquiry or comment*" />
+        <span id="msg-error" class="error-message"></span>
+
+        <button type="submit" id="send">Send</button>
+
+        <span id="error"></span>
+      </form>
+    </div>
+
+    <h1>Join the Glistening Wonders Family</h1>
+
+    <h4>Be the first to know about new arrivals and exclusive offers.</h4>
+
+    <button class="sign-up">Sign Up Now</button>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <ul>
+            <li>About Us</li>
+            <li>FAQs</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-column">
+            Follow us on social media for exclusive sneak peeks, holiday
+            inspiration, and more! At Glistening Wonders, we are dedicated to
+            creating lasting memories one ornament at a time.
+          </p>
+          <a href="https://github.com/pcatalinahe" target="_blank"
+            ><img
+              alt="github logo"
+              src="/assets/icons/github.png"
+              style="height: 30px; width: 30px"
+          /></a>
+          <img
+            alt="facebook logo"
+            src="/assets/icons/facebook.png"
+            style="height: 30px; width: 30px"
+          />
+
+          <img
+            alt="facebook logo"
+            src="/assets/icons/instagram.png"
+            style="height: 30px; width: 30px"
+          />
+        </div>
+      </div>
+      <p class="copyright">
+        &copy 2024 Glistening Wonders. All Rights Reserved.
+      </p>
+    </footer>
+    <script src="/jsjson/script.js"></script>
+  </body>
+</html>

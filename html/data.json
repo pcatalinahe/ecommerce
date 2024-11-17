@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Holiday Cheers Gingerbread Rocking Horse Ornament",
+      "price": "$119",
+      "description": "Material:  Crystals, metal, rayon ribbon.",
+      "image": "./assets/products/bell-front.png"
+      
+    },
+
+    {
+      "id": 2,
+      "image": "./assets/products/bell-front.png",
+      "title": "Annual Edition Ball Ornament 2024",
+      "price": "$129",
+      "description": "Material:  crystals, polyester, Champagne gold-tone finish metal, glass."
+    },
+
+    {
+      "id": 3,
+      "image": "./assets/products/candycane-front.png",
+      "title": "$99",
+      "price": "Holiday Cheers Dulcis Candy Cane Ornament",
+      "description": "Material:  crystals, polyester, metal"
+    },
+
+    {
+      "id": 4,
+      "image": "assets/products/moon-front.png",
+      "title": "Holiday Magic Moon Ornament",
+      "price": "$119",
+      "description": "Material:  crystals, polyester, champagne gold-tone finish metal"
+    },
+
+    {
+      "id": 5,
+      "image": "assets/products/star-front.png",
+      "title": "Star Ornament",
+      "price": "$119",
+      "description": "Material:  crystals, satin ribbon, metal"
+    },
+
+    {
+      "id": 6,
+      "image": "assets/products/gingerbread-front.png",
+      "title": "Holiday Cheers Gingerbread Man Ornament",
+      "price": "$99",
+      "description": "Material:  crystals, metal, rayon ribbon"
+    },
+
+    {
+      "id": 7,
+      "image": "assets/products/dragon-front.png",
+      "title": "Asian Symbols Dragon Ornament",
+      "price": "$99",
+      "description": "Material:  crystals, polyester, metal"
+    },
+
+    {
+      "id": 8,
+      "image": "assets/products/snowman-pink.png",
+      "title": "Holiday Cheers Dulcis Snowman - PINK",
+      "price": "$229",
+      "description": "Material:  crystals, metal"
+    },
+
+    {
+      "id": 9,
+      "image": "assets/products/snowman-green.png",
+      "title": "Holiday Cheers Dulcis Snowman - Green",
+      "price": "$229",
+      "description": "Material:  crystals, metal"
+    },
+
+    {
+      "id": 10,
+      "image": "./assets/products/bell-front.png",
+      "title": "Holiday Magic Classics Bell Ornament",
+      "price": "$69",
+      "description": "Material:  crystals, polyester, metal, glass"
+    },
+
+    {
+      "id": 11,
+      "image": "./assets/products/bell-front.png",
+      "title": "Holiday Magic Classics Star Ornament",
+      "price": "$99",
+      "description": "Material:  crystals, polyester, metal"
+    },
+
+    {
+      "id": 12,
+      "image": "./assets/products/bell-front.png",
+      "title": "Holiday Magic Moon Ornament",
+      "price": "$119",
+      "description": "Material:  crystals, polyester, champagne gold-tone finish metal"
+    }
+  ]
+}

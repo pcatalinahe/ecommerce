@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Raleway";
+}
+
+.navbar {
+  background-color: transparent;
+  position: relative;
+  z-index: 20;
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  font-family: "raleway";
+}
+
+nav li {
+  display: inline;
+  padding: 1rem;
+}
+
+nav li > a:link {
+  color: white;
+  text-decoration: none;
+}
+
+nav li > a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav li > a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+nav li > a:active {
+  color: white;
+  text-decoration: none;
+}
+
+#hero video {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  object-fit: cover;
+}
+
+h1,
+h4 {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.faq {
+  background-color: antiquewhite;
+  padding: 5%;
+}
+
+.faq > h1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.faq > p {
+    margin-bottom: 2%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 5%;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+  height: 30rem;
+  width: 30%;
+  border-radius: 2%;
+  background-color: #765f5c;
+  -webkit-box-shadow: 25px 24px 30px -12px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 25px 24px 30px -12px rgba(0, 0, 0, 0.65);
+  box-shadow: 25px 24px 30px -12px rgba(0, 0, 0, 0.65);
+}
+
+form input {
+  width: 100%;
+}
+
+.ast {
+  color: red;
+}
+
+form #msg {
+  height: 20%;
+}
+
+#send {
+  padding: 2%;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  background-color: #4f322896;
+  text-transform: uppercase;
+  font-size: large;
+}
+
+button:hover {
+  text-decoration: underline;
+  background-color: #4f3228;
+}
+
+.sign-up {
+  margin-left: 40rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+
+footer {
+  background-color: #000000;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-grow: 1;
+  padding: 2%;
+  margin-right: 5%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+footer img {
+  display: inline;
+  margin: 2% 15%;
+}
+
+footer li {
+  text-decoration: underline;
+  padding: 4%;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* //////////////////////////////////////// */
