@@ -22,7 +22,7 @@
   <body>
     <nav class="navbar">
       <ul>
-        <li><a href="/html/index.html">HOME</a></li>
+        <li><a href="../index.html">HOME</a></li>
         <li><a href="/html/shop.html">SHOP</a></li>
         <li><a href="/html/contact.html">ABOUT</a></li>
         <li><a href="/html/contact.html#cu-form">CONTACT US</a></li>
@@ -36,10 +36,14 @@
       <div class="hero-text">
         <h1>“Crafted for the holidays, designed for life”</h1>
         <h2>Timeless designs, crafted for your holiday traditions.</h2>
-        <button>SHOP COLLECTION</button>
       </div>
     </div>
-    <div class="decor">Discover the Magic of Handcrafted Crystal Ornaments</div>
+    <div class="decor">
+      <div class="decor-text">
+        <h2>Discover the Magic of Handcrafted Crystal Ornaments</h2>
+       <a href="../html/shop.html"><button class="shop">SHOP COLLECTION</button></a>
+      </div>
+    </div>
 
     <h1 id="bs">Bestsellers</h1>
     <div class="pop-items">
@@ -49,40 +53,43 @@
         <div class="column" id="a">
           <img
             id="bell"
-            src="/assets/products/bell-front.png"
+            src="../assets/products/bell-front.png"
             style="height: 100%; width: 100%"
+            onmouseover="this.src='../assets/products/bell-hover.png'"
+            onmouseout="this.src='../assets/products/bell-front.png'"
           />
           <div class="img-text" id="text2">
-            <h4>Glistening Wonders in Your Home</h4>
+            <h4>Holiday Cheers Dulcis Candy Cane Ornament</h4>
             <p>
-              Bring elegance and magic to your holiday tree with ornaments that
-              shimmer and shine with every light
+              A crystallized sweet treat, this candy cane ornament is playful and charming. The design features a radiant candy cane with a suspended snowman and is crafted with 266 facets in festive shades. Hanging from a green grosgrain ribbon, the design is completed with glossy metallic accents. Gift to a loved one or place under your tree to raise a smile. Decoration object.
             </p>
           </div>
           <img
             id="gb"
-            src="/assets/products/gingerbread-front.png"
+            src="assets/products/gingerbread-front.png"
             style="height: 100%; width: 100%"
+            onmouseover="this.src='assets/products/gingerbread-hover.png'"
+            onmouseout="this.src='assets/products/gingerbread-front.png'"
           />
         </div>
         <div class="column" id="b">
           <div class="img-text" id="text1">
-            <h4>Glistening Wonders in Your Home</h4>
+            <h4>Holiday Magic Classics Bell Ornament</h4>
             <p>
-              Bring elegance and magic to your holiday tree with ornaments that
-              shimmer and shine with every light
+              For the first time, Swarovski has crafted a miniature version of its traditional bell ornament. The immaculate glass design is covered with approximately 300 small crystals, while the inside contains a clapper of stars produced with 108 facets and the mesmerizing Aurora Borealis effect. The piece is suspended on a white grosgrain ribbon connected to a silver-tone metal cap, helping to create the perfect display of delicate beauty in your home. Decoration object.
             </p>
           </div>
           <img
             id="hands"
-            src="/assets/products/hands.png"
+            src="assets/products/candycane-front.png"
             style="height: 100%; width: 100%"
+            onmouseover="this.src='assets/products/candycane-hover.png'"
+            onmouseout="this.src='assets/products/candycane-front.png'"
           />
           <div class="img-text" id="text3">
-            <h4>Glistening Wonders in Your Home</h4>
+            <h4>Holiday Cheers Gingerbread Man Ornament</h4>
             <p>
-              Bring elegance and magic to your holiday tree with ornaments that
-              shimmer and shine with every light
+              This jolly gingerbread man ornament is a fun addition to your seasonal curation. It shines with 195 facets of gold-toned crystal with white print detailing and green, red, black, and clear crystal accents. A cute and charming character to trim your tree or hang in your window on its red grosgrain rayon ribbon, it will awaken childhood memories of festive baking. A wonderful gift, especially when combined with the other pieces in the nostalgic Holiday Cheers collection. Decoration object.
             </p>
           </div>
         </div>
@@ -94,13 +101,13 @@
       <div class="footer-container">
         <div class="footer-column">
           <ul>
-            <li>About Us</li>
-            <li>FAQs</li>
-            <li>Contact</li>
+            <li><a href="/html/contact.html#about">About Us</a></li>
+            <li><a href="/html/contact.html#faq">FAQs</a></li>
+            <li><a href="/html/contact.html#cu-form">Contact</a></li>
           </ul>
         </div>
         <div>
-          <p class="footer-column">
+          <p class="footer-column" id="right">
             Follow us on social media for exclusive sneak peeks, holiday
             inspiration, and more! At Glistening Wonders, we are dedicated to
             creating lasting memories one ornament at a time.

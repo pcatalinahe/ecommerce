@@ -6,8 +6,6 @@ Homepage Introduction
 About Us (Brand Story)
 "At Glistening Wonders, we believe in the power of tradition and the beauty of hand-crafted artistry. Our ornaments are not just decorations—they are treasures to be passed down through generations. Each piece is carefully made with love, using the finest glass and intricate techniques to capture the spirit of the season. Inspired by the delicate beauty of winter and the warmth of the holidays, we are committed to creating ornaments that sparkle with elegance and charm. With Glistening Wonders, you are not just buying a decoration—you are bringing home a piece of holiday magic."
 
-Product Page Description
-"Each ornament in our collection is a masterpiece, designed to reflect the light and beauty of the holiday season. Whether it's a hand-blown glass bauble with delicate silver detailing, or a crystal snowflake that catches every beam of light, our ornaments are perfect for those who appreciate the finer things in life. Crafted with care and passion, every piece is as unique as the holiday memories you’ll create."
 
 Contact Page Copy
 "We’d love to hear from you! Whether you have a question about our collection or need assistance with an order, our team is here to help. Please fill out the form below, and we'll get back to you as soon as possible. Thank you for choosing Glistening Wonders—where every ornament is designed to bring joy and beauty to your home."
@@ -33,3 +31,11 @@ To keep your crystal ornaments looking as brilliant as the day you received them
 Gentle Cleaning: Use a soft, lint-free cloth to wipe away any dust or fingerprints. If necessary, clean with warm water and a mild, non-abrasive soap.
 Storage: When not in use, store your crystal ornaments in a cool, dry place away from direct sunlight. Keep them in their original packaging or a padded box to protect them from accidental damage.
 Avoid Chemicals: Harsh chemicals or abrasives can damage the crystal’s delicate surface, so always avoid using these when cleaning your ornaments.
+
+
+
+<h4>Glistening Wonders in Your Home</h4>
+            <p>
+              Bring elegance and magic to your holiday tree with ornaments that
+              shimmer and shine with every light
+            </p>

@@ -2,26 +2,25 @@
   "products": [
     {
       "id": 1,
+      "image": "assets/products/horse-front.png",
       "title": "Holiday Cheers Gingerbread Rocking Horse Ornament",
       "price": "$119",
-      "description": "Material:  Crystals, metal, rayon ribbon.",
-      "image": "./assets/products/bell-front.png"
-      
+      "description": "Material:  Crystals, metal, rayon ribbon."
     },
 
     {
       "id": 2,
-      "image": "./assets/products/bell-front.png",
+      "image": "./assets/products/ornament-front.png",
       "title": "Annual Edition Ball Ornament 2024",
       "price": "$129",
-      "description": "Material:  crystals, polyester, Champagne gold-tone finish metal, glass."
+      "description": "Material: crystals, Champagne gold-tone finish metal, glass."
     },
 
     {
       "id": 3,
       "image": "./assets/products/candycane-front.png",
-      "title": "$99",
-      "price": "Holiday Cheers Dulcis Candy Cane Ornament",
+      "title": "Holiday Cheers Dulcis Candy Cane Ornament",
+      "price": "$99",
       "description": "Material:  crystals, polyester, metal"
     },
 
@@ -30,7 +29,7 @@
       "image": "assets/products/moon-front.png",
       "title": "Holiday Magic Moon Ornament",
       "price": "$119",
-      "description": "Material:  crystals, polyester, champagne gold-tone finish metal"
+      "description": "Material:  crystals, champagne gold-tone finish metal"
     },
 
     {
@@ -83,7 +82,7 @@
 
     {
       "id": 11,
-      "image": "./assets/products/bell-front.png",
+      "image": "./assets/products/crystal-front.png",
       "title": "Holiday Magic Classics Star Ornament",
       "price": "$99",
       "description": "Material:  crystals, polyester, metal"
@@ -91,10 +90,10 @@
 
     {
       "id": 12,
-      "image": "./assets/products/bell-front.png",
-      "title": "Holiday Magic Moon Ornament",
-      "price": "$119",
-      "description": "Material:  crystals, polyester, champagne gold-tone finish metal"
+      "image": "assets/products/dragon-front.png",
+      "title": "Holiday Cheers Dulcis Bell Ornament",
+      "price": "$129",
+      "description": "Material: crystals, champagne gold-tone finish metal, glass"
     }
   ]
 }
